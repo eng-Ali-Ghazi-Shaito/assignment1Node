@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fdf6ec;
+  color: #3b2a1a;
+}
+
+h1 {
+  text-align: center;
+  color: #5b3a29;
+}
+
+section {
+  background-color: #ffffff;
+  border: 1px solid #e0d3c0;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+button {
+  background-color: #5b3a29;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #7a4f37;
+}
+
+input[type="text"] {
+  padding: 6px 8px;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#error-msg {
+  color: red;
+  min-height: 1em;
+}
+
+#cart-total {
+  font-weight: bold;
+}
+
+/* Required by the assignment: toggled from JavaScript */
+.hidden {
+  display: none;
+}
+
+#reward-msg {
+  color: green;
+  font-weight: bold;
+}
